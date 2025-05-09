@@ -1,69 +1,53 @@
-/* General Reset */
+/* Base CSS Styles */
+
 * {
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10;
     box-sizing: border-box;
 }
 
-/* Body Styling */
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
-    padding: 20px;
+    color: #f0f0f0; /* White dark */
+    background-color: #010119; /* Blue dark */
 }
 
-/* Header Styling */
-header {
-    background: #35424a;
-    color: #ffffff;
-    padding: 10px 20px;
-    text-align: center;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 2.5em;
-}
-
-/* Navigation Bar */
-nav {
-    background: #35424a;
-    color: #ffffff;
-    padding: 10px;
-    text-align: center;
-}
-
-nav a {
-    color: #ffffff;
-    text-decoration: none;
-    margin: 0 15px;
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1rem;
     font-weight: bold;
 }
 
-nav a:hover {
+p {
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
     text-decoration: underline;
 }
 
-/* Main Content */
-main {
-    background: #ffffff;
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 800px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ul {
+    list-style: none;
+    padding: 0;
 }
 
-/* Footer Styling */
-footer {
-    background: #35424a;
-    color: #ffffff;
-    text-align: center;
-    padding: 10px;
-    margin-top: 20px;
+button {
+    cursor: pointer;
+    border: none;
+    background: none;
 }
 
-footer p {
-    margin: 0;
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
