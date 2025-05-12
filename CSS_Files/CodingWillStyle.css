@@ -53,12 +53,14 @@ header {
     background-color: var(--darkColor3);
     color: white;
     padding: 10px;
+    /* margin: auto; */
 }
 .section7 {
     
 }
 .section8 {
     background-color: var(--darkColor4);
+    padding: 1px;
 }
 
 nav {
@@ -327,10 +329,13 @@ nav button:hover {
     font-size: 50px;
     margin: 0px;
 }
+.section5 p {
+    color: var(--lightColor2);
+}
 .section5 button {
-    background-color: blue;
-    /* border: 2px solid white; */
-    box-shadow: 2px 4px 8px var(--lightColor2);
+    background-color: rgba(6, 6, 65, 0.749);
+    border: 1px solid white;
+    box-shadow: 2px 2px 8px var(--lightColor2);
     border-radius: 10px;
     padding: 10px;
     color: white;
@@ -338,6 +343,77 @@ nav button:hover {
     font-weight: bolder;
     margin: 10px;
     margin-bottom: 30px;
+}
+.section6 h2 {
+    text-align: center;
+}
+.circularCard {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.section6Div1 img {
+    width: 80px;
+    margin: auto;
+    /* border: 2px solid var(--darkColor1);
+    border-radius: 100px; */
+}
+.section6Div2 img {
+    width: 60px;
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    /* border: 2px solid var(--darkColor3);
+    border-radius: 100px; */
+}
+.section8 h4 {
+    color: var(--lightColor2);
+    text-align: center;
+}
+.footerSection {
+    color: white;
+    width: 100%;
+    display: flex;
+}
+.footerSection div {
+    width: 100%;
+    text-align: center;
+}
+.section8Div1 img {
+    width: 60px;
+    margin: 5px 5px 5px 10px;
+}
+.footerSection div p {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.contactDiv {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+.contact {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    cursor: pointer;
+    padding-top: 2%;
+}
+.contact img {
+    width: 30px;
+    height: 30px;
+    padding-left: 30%;
+}
+.contact p {
+    padding: 0;
+    margin: 0;
+}
+.section8Div4 hr {
+    margin-right: 20px;
 }
 
 .dark-theme-color1 {
